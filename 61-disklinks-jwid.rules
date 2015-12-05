@@ -33,6 +33,7 @@ ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="WDC_WD20EARS-00MVWB0_WD-WCAZA11
 ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="WDC_WD20EARS-00MVWB0_WD-WCAZA0833067", ENV{ID_JWID}="JWHD035"
 
 ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="ST31000528AS_9VPA75FM", ENV{ID_JWID}="JWHD039"
+
 ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="ST31000340AS_6QJ03MXX", ENV{ID_JWID}="JWHD040"
 ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="ST31000340AS_6QJ01R5Z", ENV{ID_JWID}="JWHD041"
 ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="ST31000340NS_9QJ71XY7", ENV{ID_JWID}="JWHD042"
@@ -41,7 +42,63 @@ ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="ST31000524NS_9WK1G8SZ", ENV{ID_
 ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="ST31000340AS_6QJ03XET", ENV{ID_JWID}="JWHD045"
 ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="ST31000340AS_5QJ0X5R1", ENV{ID_JWID}="JWHD046"
 ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="ST31000333AS_6TE0FPDH", ENV{ID_JWID}="JWHD047"
-ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="ST31000340AS_6QJ01B4Y", ENV{ID_JWID}="JWHD048"
+
+ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="KINGSTON_SH103S3120G_50026B7239015972", ENV{ID_JWID}="JWHD051"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="KINGSTON_SH103S3120G_50026B7239015916", ENV{ID_JWID}="JWHD052"
+
+ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="ST3500320AS_9QM1ZGNP", ENV{ID_JWID}="JWHD053"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="ST3250824AS_4ND4PAPX", ENV{ID_JWID}="JWHD054"
+
+ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="ST_M13FQBL_QNR_BFW", ENV{ID_JWID}="JWHD055"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="ST31000340NS_9QJ5ZBLK", ENV{ID_JWID}="JWHD056"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="ST31000340NS_9QJ5ZNS4", ENV{ID_JWID}="JWHD057"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="ST31000340NS_9QJ5WGG1", ENV{ID_JWID}="JWHD058"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="ST31000340NS_9QJ5XXSV", ENV{ID_JWID}="JWHD059"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="WDC_WD1002FAEX-00Z3A0_WD-WCATR1310373", ENV{ID_JWID}="JWHD060"
+
+ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="ST3160828AS_5MT3MGDY", ENV{ID_JWID}="JWHD061"
+
+ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="ST8000AS0002-1NA17Z_Z840B0G1", ENV{ID_JWID}="JWHD077"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="ST8000AS0002-1NA17Z_Z840B0NV", ENV{ID_JWID}="JWHD078"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="ST8000AS0002-1NA17Z_Z840B6BJ", ENV{ID_JWID}="JWHD079"
+
+
+#iscsi based on iqn name:
+
+
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD0[0-9][0-9]-lun-[0-9]|*:JWHD0[0-9][0-9]-lun-[0-9][0-9]", ENV{ID_JWID}="JWHD0"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD1[0-9][0-9]-lun-[0-9]|*:JWHD1[0-9][0-9]-lun-[0-9][0-9]", ENV{ID_JWID}="JWHD1"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD2[0-9][0-9]-lun-[0-9]|*:JWHD2[0-9][0-9]-lun-[0-9][0-9]", ENV{ID_JWID}="JWHD2"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD3[0-9][0-9]-lun-[0-9]|*:JWHD3[0-9][0-9]-lun-[0-9][0-9]", ENV{ID_JWID}="JWHD3"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD4[0-9][0-9]-lun-[0-9]|*:JWHD4[0-9][0-9]-lun-[0-9][0-9]", ENV{ID_JWID}="JWHD4"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD5[0-9][0-9]-lun-[0-9]|*:JWHD5[0-9][0-9]-lun-[0-9][0-9]", ENV{ID_JWID}="JWHD5"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD6[0-9][0-9]-lun-[0-9]|*:JWHD6[0-9][0-9]-lun-[0-9][0-9]", ENV{ID_JWID}="JWHD6"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD7[0-9][0-9]-lun-[0-9]|*:JWHD7[0-9][0-9]-lun-[0-9][0-9]", ENV{ID_JWID}="JWHD7"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD8[0-9][0-9]-lun-[0-9]|*:JWHD8[0-9][0-9]-lun-[0-9][0-9]", ENV{ID_JWID}="JWHD8"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD9[0-9][0-9]-lun-[0-9]|*:JWHD9[0-9][0-9]-lun-[0-9][0-9]", ENV{ID_JWID}="JWHD9"
+
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD[0-9]0[0-9]-lun-[0-9]|*:JWHD[0-9]0[0-9]-lun-[0-9][0-9]", ENV{ID_JWID}="$env{ID_JWID}0"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD[0-9]1[0-9]-lun-[0-9]|*:JWHD[0-9]1[0-9]-lun-[0-9][0-9]", ENV{ID_JWID}="$env{ID_JWID}1"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD[0-9]2[0-9]-lun-[0-9]|*:JWHD[0-9]2[0-9]-lun-[0-9][0-9]", ENV{ID_JWID}="$env{ID_JWID}2"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD[0-9]3[0-9]-lun-[0-9]|*:JWHD[0-9]3[0-9]-lun-[0-9][0-9]", ENV{ID_JWID}="$env{ID_JWID}3"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD[0-9]4[0-9]-lun-[0-9]|*:JWHD[0-9]4[0-9]-lun-[0-9][0-9]", ENV{ID_JWID}="$env{ID_JWID}4"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD[0-9]5[0-9]-lun-[0-9]|*:JWHD[0-9]5[0-9]-lun-[0-9][0-9]", ENV{ID_JWID}="$env{ID_JWID}5"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD[0-9]6[0-9]-lun-[0-9]|*:JWHD[0-9]6[0-9]-lun-[0-9][0-9]", ENV{ID_JWID}="$env{ID_JWID}6"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD[0-9]7[0-9]-lun-[0-9]|*:JWHD[0-9]7[0-9]-lun-[0-9][0-9]", ENV{ID_JWID}="$env{ID_JWID}7"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD[0-9]8[0-9]-lun-[0-9]|*:JWHD[0-9]8[0-9]-lun-[0-9][0-9]", ENV{ID_JWID}="$env{ID_JWID}8"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD[0-9]9[0-9]-lun-[0-9]|*:JWHD[0-9]9[0-9]-lun-[0-9][0-9]", ENV{ID_JWID}="$env{ID_JWID}9"
+
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD[0-9][0-9]0-lun-[0-9]|*:JWHD[0-9][0-9]0-lun-[0-9][0-9]", ENV{ID_JWID}="$env{ID_JWID}0"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD[0-9][0-9]1-lun-[0-9]|*:JWHD[0-9][0-9]1-lun-[0-9][0-9]", ENV{ID_JWID}="$env{ID_JWID}1"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD[0-9][0-9]2-lun-[0-9]|*:JWHD[0-9][0-9]2-lun-[0-9][0-9]", ENV{ID_JWID}="$env{ID_JWID}2"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD[0-9][0-9]3-lun-[0-9]|*:JWHD[0-9][0-9]3-lun-[0-9][0-9]", ENV{ID_JWID}="$env{ID_JWID}3"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD[0-9][0-9]4-lun-[0-9]|*:JWHD[0-9][0-9]4-lun-[0-9][0-9]", ENV{ID_JWID}="$env{ID_JWID}4"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD[0-9][0-9]5-lun-[0-9]|*:JWHD[0-9][0-9]5-lun-[0-9][0-9]", ENV{ID_JWID}="$env{ID_JWID}5"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD[0-9][0-9]6-lun-[0-9]|*:JWHD[0-9][0-9]6-lun-[0-9][0-9]", ENV{ID_JWID}="$env{ID_JWID}6"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD[0-9][0-9]7-lun-[0-9]|*:JWHD[0-9][0-9]7-lun-[0-9][0-9]", ENV{ID_JWID}="$env{ID_JWID}7"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD[0-9][0-9]8-lun-[0-9]|*:JWHD[0-9][0-9]8-lun-[0-9][0-9]", ENV{ID_JWID}="$env{ID_JWID}8"
+ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD[0-9][0-9]9-lun-[0-9]|*:JWHD[0-9][0-9]9-lun-[0-9][0-9]", ENV{ID_JWID}="$env{ID_JWID}9"
+
 
 ENV{DEVTYPE}=="disk", ENV{ID_JWID}=="?*", SYMLINK+="disk/by-jwid/$env{ID_JWID}"
 ENV{DEVTYPE}=="partition", ENV{ID_JWID}=="?*", SYMLINK+="disk/by-jwid/$env{ID_JWID}-part%n"
