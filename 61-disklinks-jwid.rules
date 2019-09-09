@@ -170,5 +170,5 @@ ENV{DEVTYPE}=="disk|partition", ENV{ID_PATH}=="*:JWHD[0-9][0-9]9-lun-[0-9]|*:JWH
 ENV{DEVTYPE}=="disk", ENV{ID_JWID}=="?*", SYMLINK+="disk/by-jwid/$env{ID_JWID}"
 ENV{DEVTYPE}=="partition", ENV{ID_JWID}=="?*", SYMLINK+="disk/by-jwid/$env{ID_JWID}-part%n"
 
-ENV{DEVTYPE}=="disk", ENV{ID_GWID}=="?*", SYMLINK+="disk/by-jwid/$env{ID_GWID}"
-ENV{DEVTYPE}=="partition", ENV{ID_GWID}=="?*", SYMLINK+="disk/by-jwid/$env{ID_GWID}-part%n"
+ENV{DEVTYPE}=="disk", ENV{ID_GWID}=="?*", SYMLINK+="disk/by-gwid/$env{ID_GWID}"
+ENV{DEVTYPE}=="partition", ENV{ID_GWID}=="?*", SYMLINK+="disk/by-gwid/$env{ID_GWID}-part%n"
