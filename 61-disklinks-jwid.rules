@@ -258,6 +258,8 @@ ENV{DEVTYPE}=="disk|partition", ENV{ID_SERIAL}=="35000c500db85c1be", ENV{ID_JWID
 ENV{DEVTYPE}=="disk|partition", ENV{SCSI_IDENT_SERIAL}=="ZS50SXLH", ENV{ID_JWID}="JWHD129"
 
 
+#Sun F40
+ENV{DEVTYPE}=="disk|partition", ENV{SCSI_IDENT_SERIAL}=="1134018311210391813", ENV{ID_JWID}="JWHD138"
 
 #iscsi based on iqn name:
 
